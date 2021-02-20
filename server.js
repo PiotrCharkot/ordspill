@@ -17,7 +17,8 @@ const isAuth = require('./lib/passwordUtils').isAuth;
 const User = connection.models.User;
 require('./config/passport');
 
-app.listen(3000, () => console.log('listening at 3000'))
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`listening at ${port}`))
 app.use(express.static('public'));
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ extended: false}))
