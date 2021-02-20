@@ -1,0 +1,286 @@
+body {
+    background-color: #093961;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 45px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.title-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px 45px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px 10px 0 0;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.word-list {
+    width: 250px;
+    padding-right: 25px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letter-grid {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-gap: 5px;
+}
+
+.points-box {
+    padding-left: 20px;
+    width: 250px;
+    font-size: 25px;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 2px solid white;
+    background-color: skyblue;
+    border-radius: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.square:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border: 2px solid white;
+    background-color: rgb(96, 226, 243);
+    border-radius: 10%;
+
+}
+
+.square_checked {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.confirm-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-cnf {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.btn-lgn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 350px;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.links {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0 0;
+    font-size: 20;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+a {
+    color: white;
+    padding: 0 10px 0 10px;
+
+}
+
+a:hover {
+    color: rgb(255, 132, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#my-place-text {
+    display: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 132, 0);
+    padding-top: 30px;
+}
+
+#list-item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #093961;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#list-item2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: hsl(207, 81%, 29%);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#list-item3 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: hsl(147, 64%, 47%);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#placeName {
+    margin-right: auto;
+}
+
+#listPoints {
+    margin-left: auto;
+}
+
+#answerTitle {
+    color: rgb(255, 132, 0);
+}
+
+#answerPlayer {
+    color: chartreuse;
+}
+
+#subtitles {
+    color: rgb(255, 132, 0);
+}
+
+#subtitles-time {
+    color: rgb(255, 132, 0);
+    padding-right: 5px;
+}
+
+#my-place {
+    color: chartreuse;
+}
+
+#player-words {
+    color: chartreuse;
+}
+
+#points {
+    color: chartreuse;
+}
+
+#name {
+    margin-right: auto;
+}
+
+#email {
+    margin-right: auto;
+}
+
+#inputDiv {
+    padding-top: 4px;
+}
+
+.orange {
+    background-color: rgb(212, 150, 83);
+    transition: opacity 0.2s;
+}
+
+.green {
+    background-color:  #4CAF50;
+    transition: opacity 0.2s;
+}
+
+.red {
+    background-color: red;
+    transition: opacity 0.2s;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+#uname {
+    padding-left: 12;
+    padding-right: 20;
+    color: darkgreen;
+}
+
+#showWord {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
